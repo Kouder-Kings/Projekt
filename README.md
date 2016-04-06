@@ -1,2 +1,3 @@
 # eKup
-Projekt sklepu internetowego
+
+eKup - Projekt Sklepu Internetowego
