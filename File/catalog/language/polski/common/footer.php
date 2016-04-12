@@ -14,5 +14,5 @@ $_['text_account']      = 'Moje konto';
 $_['text_order']        = 'Historia zamówienia';
 $_['text_wishlist']     = 'Lista życzeń';
 $_['text_newsletter']   = 'Newsletter';
-$_['text_powered']      = '&copy; %s %s<br />Powered By <a href="http://www.opencart.com">OpenCart</a>. OC Europa by <a href="http://www.csillamvilag.com">CsillámVilág</a>';
+$_['text_powered']      = '&copy; %s %s<br />Powered By <a href="http://www.opencart.com">OpenCart</a>. Polish by <a href="http://www.csillamvilag.com">Kouder-Kings</a>';
 ?>
