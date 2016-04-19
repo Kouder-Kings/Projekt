@@ -1,0 +1,108 @@
+<?php
+// Heading
+$_['heading_title']             = 'Ustawienia';
+
+// Text
+$_['text_success']              = 'Sukces: Zmiany ustawień zostały zapisane!';
+$_['text_image_manager']        = 'Menadżer zdjęć';
+$_['text_mail']                 = 'Mail';
+$_['text_smtp']                 = 'SMTP';
+
+// Entry
+$_['entry_name']                = 'Nazwa sklepu:';
+$_['entry_owner']               = 'Właściciel sklepu:';
+$_['entry_address']             = 'Adres:';
+$_['entry_email']               = 'E-Mail:';
+$_['entry_telephone']           = 'Telefon:';
+$_['entry_fax']                 = 'Fax:';
+$_['entry_title']               = 'Tytuł:';
+$_['entry_meta_description']    = 'Opis (Meta Tag):';
+$_['entry_layout']              = 'Domyślny Layout:';
+$_['entry_template']            = 'Szablon:';
+$_['entry_country']             = 'Kraj:';
+$_['entry_zone']                = 'Region / Województwo:';
+$_['entry_language']            = 'Język:';
+$_['entry_admin_language']      = 'Język panelu administracyjnego:';
+$_['entry_currency']            = 'Waluta:';
+$_['entry_currency_auto']       = 'Automatyczna aktualizacja waluty:<br /><span class="help">Automatyczna aktualizacja waluty.</span>';
+$_['entry_length_class']        = 'Klasa rozmiaru:';
+$_['entry_weight_class']        = 'Klasa wagowa:';
+$_['entry_catalog_limit'] 	    = 'Ilość elementów na jednej stronie:<br /><span class="help">Ilość wyświetlanych pozycji (produktów, kategorii, wyników wyszukiwania etc.) na jednej stronie</span>';
+$_['entry_admin_limit'] 	    = 'Ilość elementów na jednej stronie (admin):<br /><span class="help">Ilość wyświetlanych pozycji w panelu administracjnym na jednej stronie</span>';
+$_['entry_tax']                 = 'Wyświetlaj ceny z podatkiem:';
+$_['entry_invoice']             = 'Numer początkowy faktury.:<br /><span class="help">Kolejne faktury będą posiadać kolejny numer.</span>';
+$_['entry_invoice_prefix']      = 'Przedrostek numeru faktury:<br /><span class="help">przykładowo F-VAT-2011-09/</span>';
+$_['entry_customer_group']      = 'Grupa klientów:<br /><span class="help">Główna grupa klientów.</span>';
+$_['entry_customer_price']      = 'Ceny dostępne po zalogowaniu:<br /><span class="help">Wyświetlaj ceny tylko dla zalogowanych użytkowników.</span>';
+$_['entry_customer_approval']   = 'Wymagana aktywacja konta:<br /><span class="help">Zarejestrowani klienci muszą aktywować swoje konto. Aktywacja przebiega z pośrednictwem email.</span>';
+$_['entry_guest_checkout']      = 'Zamówienie przez gościa:<br /><span class="help">Zezwolenie na złożenie zamówienia bez zakładania konta</span>';
+$_['entry_account']             = 'Regulaminu rejestracji:<br /><span class="help">Rejestrujący ma obowiązek zaakceptować regulamin.</span>';
+$_['entry_checkout']            = 'Regulamin zamówienia:<br /><span class="help">Składający zamówienie ma obowiązek zaakceptować regulamin.</span>';
+$_['entry_affiliate']           = 'Regulamin programu partnerskiego:<br /><span class="help">Partner przystepujący do programu ma obowiązek zaakceptować regulamin.</span>';
+$_['entry_commission']          = 'Prowizja programu partnerskiego (%):<br /><span class="help">Domyślna wartośc procentowa prowizji w programie partnerskim.</span>';
+$_['entry_stock_display']       = 'Wyświetl dostępność:<br /><span class="help">Wyświetla stan magazynowy produktu.</span>';
+$_['entry_stock_warning']       = 'Wyświetl ostrzeżenie braku towaru:<br /><span class="help">Wyświetla informację o braku towaru w magazynie</span>';
+$_['entry_stock_checkout']      = 'Zezwalaj na zamówienie niedostępnego towaru:<br /><span class="help">Zezwalaj na zakup produktów nawet jeżeli nie ma ich w magazynie</span>';
+$_['entry_stock_status']        = 'Status niedostępnego towaru:<br /><span class="help">Ustaw status produktu, jeżeli nie jest dostępny w magazynie.</span>';
+$_['entry_order_status']        = 'Status zamówienia:<br /><span class="help">Ustaw status zamówienia przekazanego do realizacji.</span>';
+$_['entry_complete_status']     = 'Status zakończonego zamówienia:<br /><span class="help">Ustaw status zamówienia, które zostało zrealizowane.</span>';
+$_['entry_return_status']       = 'Status zwrotu:<br /><span class="help">Domyślny status zwrotu przekazanego do realizacji.</span>';
+$_['entry_review']       	    = 'Zezwalaj na recenzje:<br /><span class="help">Zezwala na dodawanie i wyświetlanie recenzji produktów</span>';
+$_['entry_download']            = 'Włącz pobieranie:';
+$_['entry_upload_allowed']      = 'Dozowolone formaty plików:<br /><span class="help">Dozwolone formaty przesyłanych plików. (rozdzielone przecinkiem).</span>';
+$_['entry_cart_weight']         = 'Wyświetl wagę koszyka:<br /><span class="help">Wyświetla wagę produktów w koszyku</span>';
+$_['entry_logo']                = 'Logo:';
+$_['entry_icon']                = 'Ikona:<br /><span class="help">PNG 16px x 16px.</span>';
+$_['entry_image_thumb']         = 'Wymiary miniaturki zdjęcia:';
+$_['entry_image_popup']         = 'Wymiary zdjęcia powiększonego:';
+$_['entry_image_product']       = 'Wymiary w liście produktów:';
+$_['entry_image_category']      = 'Wymiary w liście kategorii:';
+$_['entry_image_manufacturer']  = 'Wymiary w liście producentów:';
+$_['entry_image_additional']    = 'Wymiary dodatkowego zdjęcia produktu:';
+$_['entry_image_related']       = 'Wymiary zdjęcia produktów powiązanych:';
+$_['entry_image_compare']       = 'Wymiary zdjęcia produktów porównywanych:';
+$_['entry_image_wishlist']      = 'Wymiary zdjęcia produktu w liście życzeń:';
+$_['entry_image_cart']          = 'Wymiary zdjęcia w koszyku:';
+$_['entry_mail_protocol']       = 'Protokół poczty:<span class="help">Wybierz sposób wysyłania wiadomości';
+$_['entry_mail_parameter']      = 'Ustawienia poczty:<span class="help">Jeżeli używasz programu sendmail, tutaj możesz ustawić parametry';
+$_['entry_smtp_host']           = 'SMTP Host:';
+$_['entry_smtp_username']       = 'SMTP Użytkownik:';
+$_['entry_smtp_password']       = 'SMTP Hasło:';
+$_['entry_smtp_port']           = 'SMTP Port:';
+$_['entry_smtp_timeout']        = 'SMTP Czas oczekiwania:';
+$_['entry_account_mail']        = 'Powiadom o nowym kliencie:<br /><span class="help">Po rejestracji nowego konta klienta, zostanie wysłana wiadomość do administracji sklepu.</span>';
+$_['entry_alert_mail']          = 'Powiadom o nowym zamówieniu:<br /><span class="help">Po złożeniu zamówienia w sklepie, zostanie wysłana wiadomość do administracji sklepu.</span>';
+$_['entry_alert_emails']        = 'ADodatkowe adresy email:<br /><span class="help">Dodatkowe adres e-mail, na które zostaną wysłane powiadomienia (rozdzielone przecinkiem)</span>';
+$_['entry_use_ssl']             = 'Użyj połączenia szyfrowanego:<br /><span class="help">Jeżeli posiadasz certyfikat SSL, możesz skorzystać z bezpieczenego połączenia szyftowanego.</span>';
+$_['entry_seo_url']             = 'Włączy przyjazne linki (SEO):<br /><span class="help">Prezentowane adresy url w sklepie są przyjazne pozycjonowaniu (SEO). Wymaga włączonego mod_rewrite</span>';
+$_['entry_maintenance']         = 'Tryb konserwacyjny:<br /><span class="help">Włącz tryb prac konserwacyjnych. Działanie sklepu zostaje wstrzymane..</span>';
+$_['entry_encryption']          = 'Klucz szyfrujący:<br /><span class="help">Prywatny klucz szyfrujący.</span>';
+$_['entry_compression']         = 'Poziom kompresji:<br /><span class="help">Używa GZIP w celu zmniejszania ilości transferu danych. Poziom kompresji 0 - 9</span>';
+$_['entry_error_display']       = 'Wyświetlaj błędy:';
+$_['entry_error_log']           = 'Zapisuj błędy:';
+$_['entry_error_filename']      = 'Nazwa pliku z błędami:';
+$_['entry_google_analytics']    = 'Statystyki Google Analytics:<br /><span class="help">Kod statystyk Google Analytics.</span>';
+$_['entry_cart_weight_box']   = 'Uwzględnij ciężar opakowania:<br /><span class="help">Jeśli włączysz tę opcję, do sumarycznej wagi towarów zostanie dodany ciężar opakowania (pudełka) zbiorczego. Ciężar ten jest określany w przybliżeniu, na podstawie objętości sprzedawanych przedmiotów.</span>';
+
+// Error
+$_['error_warning']             = 'Uwaga: Sprawdź formularz pod kątem błędów!';
+$_['error_permission']          = 'Uwaga: Nie masz uprawnień do modyfikacji ustawień!';
+$_['error_name']                = 'Nazwa sklepu powinna zawierać 3-32 znaków!';
+$_['error_owner']               = 'Nazwa właściciela sklepu powinna zawierać 3-64 znaków!';
+$_['error_address']             = 'Store Address must be between 10 and 256 characters!';
+$_['error_email']               = 'Adres E-Mail jest nieprawidłowy!';
+$_['error_telephone']           = 'Telefon powinien zawierać 3-32 znaków!';
+$_['error_title']               = 'Tytuł powinien zawierać 3-32 znaków!';
+$_['error_limit']       	    = 'Limit jest wymagany!';
+$_['error_image_thumb']         = 'Wymiary miniaturki zdjęcia są wymagane!';
+$_['error_image_popup']         = 'Wymiary zdjęcia powiększonego są wymagane!';
+$_['error_image_product']       = 'Wymiary w liście produktów są wymagane!';
+$_['error_image_category']      = 'Wymiary w liście kategorii są wymagane!';
+$_['error_image_manufacturer']  = 'Wymiary w liście producentów są wymagane!';
+$_['error_image_additional']    = 'Wymiary dodatkowego zdjęcia produktu są wymagane!';
+$_['error_image_related']       = 'Wymiary zdjęcia produktów powiązanych są wymagane!';
+$_['error_image_compare']       = 'Wymiary zdjęcia produktów porównywanych są wymagane!';
+$_['error_image_wishlist']      = 'Wymiary zdjęcia produktu w liście życzeń są wymagane!';
+$_['error_image_cart']          = 'Wymiary zdjęcia w koszyku są wymagane!';
+$_['error_error_filename']      = 'Nazwa pliku błędów jest wymagana!';
+?>
