@@ -89,7 +89,7 @@
     </div>-->
   </div>
 </header>
-<!-- Koniec Loga-->
+<!-- Koniec Loga -->
 
 <!--- Początek paska navigacji -->
 <?php if ($categories) { ?>
