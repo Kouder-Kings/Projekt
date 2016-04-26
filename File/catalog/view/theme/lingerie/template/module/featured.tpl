@@ -1,4 +1,18 @@
+<div>
+<table width="100%">
+<tr>
+<td width="50%" align="left">
 <h3><?php echo $heading_title; ?></h3>
+</td>
+<td>
+<div width="100%">
+	<?php echo $search; ?>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<br>
 <div class="row product-layout">
   <?php foreach ($products as $product) { ?>
   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
