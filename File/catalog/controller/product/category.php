@@ -8,8 +8,6 @@ class ControllerProductCategory extends Controller {
 		$this->load->model('catalog/product');
 
 		$this->load->model('tool/image');
-		
-		$data['search'] = $this->load->controller('common/search');
 
 		if (isset($this->request->get['filter'])) {
 			$filter = $this->request->get['filter'];
@@ -70,7 +68,6 @@ class ControllerProductCategory extends Controller {
 			$category_id = (int)array_pop($parts);
 
 			foreach ($parts as $path_id) {
-				$data['search'] = $this->load->controller('common/search');
 				if (!$path) {
 					$path = (int)$path_id;
 				} else {

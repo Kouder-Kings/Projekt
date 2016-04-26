@@ -173,6 +173,12 @@
 	
   </nav>
      
+	<!-- Pasek Szukania-->
 	</div>
-    
+      <div class="container">
+	  
+	  <?php echo $search; ?>
+	
+	  </div>
+	<!-- Koniec paska szukania-->
 <?php } ?>

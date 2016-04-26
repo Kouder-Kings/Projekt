@@ -10,8 +10,6 @@ class ControllerModuleFeatured extends Controller {
 		$data['button_cart'] = $this->language->get('button_cart');
 		$data['button_wishlist'] = $this->language->get('button_wishlist');
 		$data['button_compare'] = $this->language->get('button_compare');
-		
-		
 
 		$this->load->model('catalog/product');
 
@@ -28,9 +26,7 @@ class ControllerModuleFeatured extends Controller {
 
 			foreach ($products as $product_id) {
 				$product_info = $this->model_catalog_product->getProduct($product_id);
-				
-				$data['search'] = $this->load->controller('common/search');
-				
+
 				if ($product_info) {
 					if ($product_info['image']) {
 						$image = $this->model_tool_image->resize($product_info['image'], $setting['width'], $setting['height']);

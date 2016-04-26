@@ -47,7 +47,7 @@ class ControllerCommonContentTop extends Controller {
 
 		foreach ($modules as $module) {
 			$part = explode('.', $module['code']);
-			
+
 			if (isset($part[0]) && $this->config->get($part[0] . '_status')) {
 				$data['modules'][] = $this->load->controller('module/' . $part[0]);
 			}
@@ -59,7 +59,6 @@ class ControllerCommonContentTop extends Controller {
 					$data['modules'][] = $this->load->controller('module/' . $part[0], $setting_info);
 				}
 			}
-			$data['search'] = $this->load->controller('common/search');
 		}
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/content_top.tpl')) {
