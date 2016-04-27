@@ -89,7 +89,7 @@
     </div>-->
   </div>
 </header>
-<!-- Koniec Loga-->
+<!-- Koniec Loga -->
 
 <!--- Początek paska navigacji -->
 <?php if ($categories) { ?>
@@ -173,12 +173,6 @@
 	
   </nav>
      
-	<!-- Pasek Szukania-->
 	</div>
-      <div class="container">
-	  
-	  <?php echo $search; ?>
-	
-	  </div>
-	<!-- Koniec paska szukania-->
+    
 <?php } ?>
