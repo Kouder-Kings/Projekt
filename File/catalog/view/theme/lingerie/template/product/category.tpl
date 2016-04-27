@@ -1,10 +1,10 @@
 <?php echo $header; ?>
 <div class="container">
-  <ul class="breadcrumb">
+ <!-- <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
     <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
     <?php } ?>
-  </ul>
+  </ul>-->
   <div class="row"><?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>
     <?php $class = 'col-sm-6'; ?>
@@ -14,7 +14,23 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h2><?php echo $heading_title; ?></h2>
+      
+	  <div>
+		<table width="100%">
+		<tr>
+		<td width="50%" align="left">
+		<h3>Kategoria: <?php echo $heading_title; ?></h3>
+		</td>
+		<td>
+		<div width="100%">
+			<?php echo $search; ?>
+		</div>
+		</td>
+		</tr>
+		</table>
+		</div>
+	  
+	  <!--
       <?php if ($thumb || $description) { ?>
       <div class="row">
         <?php if ($thumb) { ?>
@@ -26,8 +42,12 @@
       </div>
       <hr>
       <?php } ?>
+	  
+	  -->
       <?php if ($categories) { ?>
-      <h3><?php echo $text_refine; ?></h3>
+	  
+      <!-- <h3><?php echo $text_refine; ?></h3> -->
+	  
       <?php if (count($categories) <= 5) { ?>
       <div class="row">
         <div class="col-sm-3">
@@ -52,8 +72,13 @@
       </div>
       <?php } ?>
       <?php } ?>
+	  
+	  <br>
+	  
       <?php if ($products) { ?>
-      <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p>
+	  
+      <!-- <p><a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a></p> -->
+	  
       <div class="row">
         <div class="col-md-4">
           <div class="btn-group hidden-xs">
