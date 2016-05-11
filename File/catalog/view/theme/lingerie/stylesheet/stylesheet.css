@@ -424,6 +424,7 @@ color: #f13131;
 .btn-group > .btn-lg {
 	font-size: 15px;
 }
+
 .btn-default {
 	color: #777;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -431,17 +432,27 @@ color: #f13131;
 	background-repeat: repeat-x;
 	 
 }
+.btn-default:hover {
+	color: #41EB50;
+	background-color: #777;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #e7e7e7;
+	background-repeat: repeat-x;
+	 
+}
+
+
 .btn-primary {
-	color: #ffffff;
+	color: #FFFFFF;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #f13131;
+	background-color: #201717;
  
 }
 #button-cart {
 	text-transform: uppercase;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background-color: #333;
+	background-color: #52BF2F;
 	background-position: 0 -15px;
 }
 .btn-warning {
@@ -525,19 +536,19 @@ color: #f13131;
 	padding: 8px 12px;
 }
 .list-group > .list-group-item{
-	background-color: #383838;
+	background-color: #363836;
 }
 .list-group > .chil-list a{
 	border: 1px solid #DDDDDD;
-	color: #333333;
+	color: #52CE5D;
 	border-radius: 0px;
 }
 
 .list-group a.active, .list-group a.active:hover, .list-group a:hover {
-	color: #f13131;
-	background: #eeeeee;
-	border: 1px solid #DDDDDD;
-	text-shadow: 0 1px 0 #FFF;
+	color: #363836;
+	background: #52CE5D;
+	/*border: 1px solid #DDDDDD;
+	text-shadow: 0 1px 0 #FFF;*/
 }
 /* carousel */
 .owl-controls {
